@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanban Board</title>
+</head>
+<body>
+<div class="kanban-board">
+  <div class="column">
+    <h2>To Do</h2>
+    <div id="todo" class="cards"></div>
+    <div class="add-card" onclick="addCard('todo')">+ Add Card</div>
+  </div>
+  <div class="column">
+    <h2>In Progress</h2>
+    <div id="inprogress" class="cards"></div>
+    <div class="add-card" onclick="addCard('inprogress')">+ Add Card</div>
+  </div>
+  <div class="column">
+    <h2>Done</h2>
+    <div id="done" class="cards"></div>
+    <div class="add-card" onclick="addCard('done')">+ Add Card</div>
+  </div>
+</div>
+
