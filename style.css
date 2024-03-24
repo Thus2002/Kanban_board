@@ -1,0 +1,35 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  .kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .column {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 250px;
+  }
+
+  .column h2 {
+    margin-top: 0;
+  }
+
+  .card {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .add-card {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
